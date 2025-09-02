@@ -9,18 +9,6 @@ chmod +x rebuild.sh && bash rebuild.sh
 Please download the file throught google drive link below and unzip to ./datasets:
 - [Google Link](https://drive.google.com/drive/folders/19KwnEuuf3sfST8nIfoRlUZX6r8GnEGnx?usp=drive_link)
 
-First, prepare the dataset
-```
-python Slim/prepare.py
-```
-
-Then run with:
-```
-bash test_shakespeare_run.sh MODEL
-```
-where `MODEL` can be any of `llama, retnet, rwkv, gla, mamba, longhorn`.
-
-
 ## 3. Train on Slimpajama
 
 Prepare the dataset
